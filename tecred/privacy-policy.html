@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for Tecred - A privacy-respecting credentials manager by Techvance Evolve.">
+    <title>Privacy Policy | Tecred - Techvance Evolve</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* Privacy Policy Specific Styles */
+        .policy-container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: var(--space-3xl) var(--space-lg);
+            position: relative;
+            z-index: 1;
+        }
+
+        .policy-header {
+            text-align: center;
+            margin-bottom: var(--space-3xl);
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-sm);
+            color: var(--color-text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-bottom: var(--space-xl);
+            transition: var(--transition-fast);
+        }
+
+        .back-link:hover {
+            color: var(--color-accent-primary);
+        }
+
+        .back-link svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        .policy-title {
+            font-size: clamp(2rem, 5vw, 2.5rem);
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--color-text-primary) 0%, var(--color-text-secondary) 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: var(--space-md);
+        }
+
+        .policy-date {
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            color: var(--color-text-muted);
+        }
+
+        .policy-content {
+            background: var(--color-bg-elevated);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-xl);
+            padding: var(--space-2xl);
+        }
+
+        .policy-intro {
+            font-size: 1.1rem;
+            color: var(--color-text-secondary);
+            line-height: 1.8;
+            margin-bottom: var(--space-2xl);
+            padding-bottom: var(--space-2xl);
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .policy-intro strong {
+            color: var(--color-accent-primary);
+        }
+
+        .policy-section {
+            margin-bottom: var(--space-2xl);
+        }
+
+        .policy-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .policy-section h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--color-text-primary);
+            margin-bottom: var(--space-md);
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+
+        .policy-section h2::before {
+            content: '';
+            width: 4px;
+            height: 20px;
+            background: linear-gradient(135deg, var(--color-accent-primary), var(--color-accent-secondary));
+            border-radius: 2px;
+        }
+
+        .policy-section p {
+            color: var(--color-text-secondary);
+            line-height: 1.7;
+            margin-bottom: var(--space-md);
+        }
+
+        .policy-section p:last-child {
+            margin-bottom: 0;
+        }
+
+        .policy-list {
+            list-style: none;
+            padding: 0;
+            margin: var(--space-md) 0;
+        }
+
+        .policy-list li {
+            position: relative;
+            padding-left: var(--space-lg);
+            color: var(--color-text-secondary);
+            margin-bottom: var(--space-sm);
+            line-height: 1.6;
+        }
+
+        .policy-list li::before {
+            content: '×';
+            position: absolute;
+            left: 0;
+            color: var(--color-accent-primary);
+            font-weight: 600;
+            font-family: var(--font-mono);
+        }
+
+        .contact-email {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-sm);
+            color: var(--color-accent-primary);
+            text-decoration: none;
+            font-family: var(--font-mono);
+            padding: var(--space-sm) var(--space-md);
+            background: var(--color-accent-subtle);
+            border-radius: var(--radius-md);
+            transition: var(--transition-fast);
+        }
+
+        .contact-email:hover {
+            background: var(--color-accent-glow);
+        }
+
+        .policy-footer {
+            text-align: center;
+            margin-top: var(--space-3xl);
+            padding-top: var(--space-xl);
+            border-top: 1px solid var(--color-border);
+        }
+
+        .policy-footer p {
+            font-size: 0.85rem;
+            color: var(--color-text-muted);
+        }
+    </style>
+</head>
+<body>
+    <div class="noise-overlay"></div>
+    <div class="gradient-orb gradient-orb-1"></div>
+    <div class="gradient-orb gradient-orb-2"></div>
+
+    <main class="policy-container">
+        <header class="policy-header">
+            <a href="index.html" class="back-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+                Back to Home
+            </a>
+            <h1 class="policy-title">Privacy Policy</h1>
+            <p class="policy-date">Last updated: December 28, 2024</p>
+        </header>
+
+        <article class="policy-content">
+            <p class="policy-intro">
+                <strong>Tecred</strong> is developed by <strong>Techvance Evolve</strong>. This app is designed to work fully offline. We do not collect, store, or share any personal information.
+            </p>
+
+            <section class="policy-section">
+                <h2>Information We Do Not Collect</h2>
+                <p>Tecred does not collect any data from you. We do not collect:</p>
+                <ul class="policy-list">
+                    <li>Personal information</li>
+                    <li>Usage data</li>
+                    <li>Device information</li>
+                    <li>Location data</li>
+                    <li>Analytics</li>
+                    <li>Advertising data</li>
+                </ul>
+                <p>We do not send any information to external servers.</p>
+            </section>
+
+            <section class="policy-section">
+                <h2>Information You Store in the App</h2>
+                <p>Any information you save in Tecred stays on your device only. It is not transmitted, uploaded, or shared with us or any third party.</p>
+            </section>
+
+            <section class="policy-section">
+                <h2>Internet and Network Use</h2>
+                <p>Tecred does not require an internet connection and does not communicate with any online service.</p>
+            </section>
+
+            <section class="policy-section">
+                <h2>Permissions</h2>
+                <p>Tecred only requests the minimal permissions needed for core functionality. We do not request access to contacts, location, camera, microphone, or network.</p>
+            </section>
+
+            <section class="policy-section">
+                <h2>Children's Privacy</h2>
+                <p>Tecred does not collect any personal information from children or adults.</p>
+            </section>
+
+            <section class="policy-section">
+                <h2>Changes to This Policy</h2>
+                <p>We may update this Privacy Policy if needed. Any changes will be posted on this page.</p>
+            </section>
+
+            <section class="policy-section">
+                <h2>Contact</h2>
+                <p>If you have any questions, you can contact us at:</p>
+                <a href="mailto:techvance.evolve@gmail.com" class="contact-email">
+                    techvance.evolve@gmail.com
+                </a>
+            </section>
+        </article>
+
+        <footer class="policy-footer">
+            <p>&copy; 2024 Techvance Evolve. All rights reserved.</p>
+        </footer>
+    </main>
+</body>
+</html>
+
